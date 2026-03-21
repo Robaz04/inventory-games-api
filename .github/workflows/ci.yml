@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run basic test
-        run: echo "No test specified" && exit 0
+        run: npm test
   
   security-scan:
     runs-on: ubuntu-latest
