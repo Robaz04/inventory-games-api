@@ -16,8 +16,10 @@ app.get("/", (req, res) => {
 // routes
 app.use("/games", gameRoutes);
 
+module.exports = app;
 const PORT = 3000;
-
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log("Server running on port 3000");
+    });
+}
