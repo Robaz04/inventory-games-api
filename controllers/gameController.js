@@ -1,6 +1,6 @@
 let games = require("../data/games");
 
-// get all
+// get all games
 exports.getAllGames = (req, res) => {
     res.status(200).json({
         status: "success",
