@@ -5,7 +5,7 @@ const gameRoutes = require("./routes/gameRoutes");
 
 app.use(express.json());
 
-// root
+// root endpoint
 app.get("/", (req, res) => {
     res.json({
         status: "success",
@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     });
 });
 
-// routes
+// routes for games
 app.use("/games", gameRoutes);
 
 module.exports = app;
