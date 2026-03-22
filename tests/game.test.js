@@ -1,8 +1,9 @@
 const request = require("supertest");
 const express = require("express");
-const app = require("../app"); // pastikan app.js export app
+const app = require("../app");
 
-describe("GET /games", () => {
+// tes GET 
+describe("GET /games", () => { 
     it("should return all games", async () => {
         const res = await request(app).get("/games");
 
@@ -12,6 +13,7 @@ describe("GET /games", () => {
     });
 });
 
+// tes POST
 describe("POST /games", () => {
     it("should create a new game", async () => {
         const res = await request(app)

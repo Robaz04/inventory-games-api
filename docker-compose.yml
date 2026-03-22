@@ -1,5 +1,5 @@
 version: "3.8"
-
+# Define service for Node.js API
 services:
   app:
     container_name: game-inventory-api
