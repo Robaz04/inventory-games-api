@@ -1,5 +1,8 @@
 # Inventory AAA Games API
- 
+![CI Pipeline](https://github.com/Robaz04/inventory-games-api/actions/workflows/ci.yml/badge.svg)
+![Node.js](https://img.shields.io/badge/node.js-v18-green)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+
 ## 1. Deskripsi Project
  
 **Inventory AAA Games API** adalah RESTful API sederhana yang digunakan untuk mengelola data inventaris game AAA (kaset). API ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data game seperti nama, genre, dan stok.
@@ -166,11 +169,6 @@ npm audit --audit-level=low
  
 - ✔️ **Build & Test:** Success
 - ✔️ **Security Scan:** Success
-
-> 
-> ```md
-> ![CI](https://github.com/Robaz04/inventory-games-api/actions/workflows/ci.yml/badge.svg)
-> ```
  
 ---
  
